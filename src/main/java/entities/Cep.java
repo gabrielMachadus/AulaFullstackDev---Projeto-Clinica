@@ -4,11 +4,10 @@ package entities;
 import lombok.Getter;
 import lombok.Setter;
 
-
+   @Getter
+   @Setter
 public class Cep {
-    @Getter
-    @Setter
-
+ 
     private String cep, logradouro,  bairro, localidade, uf ;
 
     public Cep() {
